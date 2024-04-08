@@ -1,0 +1,28 @@
+Microsoft Windows [Version 10.0.19045.4046]
+(c) Microsoft Corporation. All rights reserved.
+
+
+C:\Users\Owner>cd desktop
+
+C:\Users\Owner\Desktop>mkdir GitPush
+
+C:\Users\Owner\Desktop>cd GitPush
+
+C:\Users\Owner\Desktop\GitPush>git init
+Initialized empty Git repository in C:/Users/Owner/Desktop/GitPush/.git/
+
+C:\Users\Owner\Desktop\GitPush>git add *
+
+C:\Users\Owner\Desktop\GitPush>git commit -m "Added README File"
+[master (root-commit) 5e8e788] Added README File
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+C:\Users\Owner\Desktop\GitPush>git log
+commit 5e8e788620d3a3e8695eae2a374603b588af41fb (HEAD -> master)
+Author: Gabriel <gabriel.giordmaina@mcast.edu.mt>
+Date:   Mon Apr 8 08:34:37 2024 +0200
+
+    Added README File
+
+C:\Users\Owner\Desktop\GitPush>
